@@ -1,15 +1,11 @@
+class Animal:
+    def speak(self):
+        print("Animal speaks")
 
-class Student:
-    def __init__(self, name, age):
-        self.name1 = name    # instance variable
-        self.age1 = age
+class Dog(Animal):   # inheritance
+    pass
 
-    def display(self):
-        print("Name:", self.name1)
-        print("Age:", self.age1)
+d = Dog()
+d.speak()
 
-# Create object
-s1 = Student("Rahul", 21)
-
-# Call method
-s1.display()
+print("asdf")
